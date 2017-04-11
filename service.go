@@ -18,7 +18,7 @@ type service struct {
 }
 
 func NewService(d *gomail.Dialer, to string, from string, subject string) *service {
-	return &service{d: d, to: to, from: from}
+	return &service{d: d, to: to, from: from, subject: subject}
 }
 
 func (s *service) SendMail(r *http.Request, req *SendMailRequest) (bool, error) {
