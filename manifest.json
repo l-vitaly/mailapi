@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "github.com/l-vitaly/jsonrpc": {
+            "branch": "develop"
+        },
+        "gopkg.in/gomail.v2": {
+            "branch": "v2"
+        }
+    }
+}
