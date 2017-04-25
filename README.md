@@ -11,6 +11,7 @@ Mail API Service
 
 ```
 git clone https://github.com/l-vitaly/mailapi.git
+cd mailapi
 dep ensure
 docker build -t mailapi . 
 docker run --name mailapi 
