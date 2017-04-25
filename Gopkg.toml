@@ -1,0 +1,7 @@
+[[dependencies]]
+  branch = "develop"
+  name = "github.com/l-vitaly/jsonrpc"
+
+[[dependencies]]
+  branch = "v2"
+  name = "gopkg.in/gomail.v2"

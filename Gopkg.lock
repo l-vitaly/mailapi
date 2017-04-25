@@ -1,0 +1,31 @@
+memo = "a2b8d52219346ba97271aac55a3599107593d50b7e7c0b4994c47c07003e8606"
+
+[[projects]]
+  branch = "develop"
+  name = "github.com/l-vitaly/jsonrpc"
+  packages = [".", "json2"]
+  revision = "3f0fb6d89d33d6fff8168f1aaff5f003c32ccf74"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/mitchellh/mapstructure"
+  packages = ["."]
+  revision = "ca63d7c062ee3c9f34db231e352b60012b4fd0c1"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "248dadf4e9068a0b3e79f02ed0a610d935de5302"
+
+[[projects]]
+  branch = "v3"
+  name = "gopkg.in/alexcesaro/quotedprintable.v3"
+  packages = ["."]
+  revision = "2caba252f4dc53eaf6b553000885530023f54623"
+
+[[projects]]
+  branch = "v2"
+  name = "gopkg.in/gomail.v2"
+  packages = ["."]
+  revision = "81ebce5c23dfd25c6c67194b37d3dd3f338c98b1"
