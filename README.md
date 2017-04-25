@@ -1,6 +1,12 @@
 Mail API Service
 ================
 
+# Requirements
+
+- [Golang >= 1.8.1](https://golang.org/doc/install)
+- [Docker](https://docs.docker.com/engine/installation)
+- [Dep](https://github.com/golang/dep#usage)
+
 # Install
 
 ```
