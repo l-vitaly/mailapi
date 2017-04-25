@@ -16,14 +16,14 @@ import (
 )
 
 func main() {
-	username := os.Getenv("MAIL_USER")
+	username := os.Getenv("MAIL_USERNAME")
 	password := os.Getenv("MAIL_PASSWD")
 	sendTo := os.Getenv("MAIL_TO")
 	sendFrom := os.Getenv("MAIL_FROM")
 	subject := os.Getenv("MAIL_SUBJECT")
 
 	if username == "" || password == "" || sendTo == "" {
-		fmt.Println("MAIL_TO, MAIL_USER and MAIL_PASSWD env must be required")
+		fmt.Println("MAIL_TO, MAIL_USERNAME and MAIL_PASSWD env must be required")
 		os.Exit(1)
 	}
 
